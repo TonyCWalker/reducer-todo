@@ -33,7 +33,7 @@ const ToDoForm = () => {
         />
         <button>Add</button>
       </form>
-      <button onClick={() => dispatch({ type: "clearCompleted" })}>
+      <button className="clearBtn" onClick={() => dispatch({ type: "clearCompleted" })}>
         Clear Completed
       </button>
     </div>
