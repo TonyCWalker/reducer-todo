@@ -1,9 +1,9 @@
-.App {
-  text-align: center;
+.item {
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
+.item.completed {
+  text-decoration: line-through;
   pointer-events: none;
 }
 
@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.todoform {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
